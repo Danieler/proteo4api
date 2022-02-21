@@ -1,0 +1,28 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "npm: dev",
+			"detail": "export DEBUG=* && docker-compose up -d && nodemon src/index.ts"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "tsc --project ./"
+		},
+		{
+			"type": "npm",
+			"script": "build:srv",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build:srv",
+			"detail": "node ./build/index.js"
+		}
+	]
+}
