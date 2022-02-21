@@ -4,7 +4,8 @@ Basic api for proteo test, you must have docker installed and running for mongo 
 
 ## Requirements
 
-Docker for create mongodb container, node and npm
+Docker for create mongodb container
+node and npm
 
 ## To Run the Application
 
