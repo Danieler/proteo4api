@@ -13,3 +13,8 @@ node and npm
 npm i
 npm run dev
 ```
+## To execute the test
+
+```
+npm run test
+```
